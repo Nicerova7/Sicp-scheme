@@ -21,4 +21,4 @@ Here is the [scheme style guide](http://community.schemewiki.org/?scheme-style)
 
 Find the book [here](https://www.amazon.com/Structure-Interpretation-Computer-Programs-Engineering/dp/0262510871)
 
-![Sicp](https://github.com/Nicerova7/Sicp-scheme/blob/3da6d7cf5941fceaee0e6b87dea213eee502eca5/img/sicp.jpg)
+![Sicp](https://github.com/Nicerova7/Sicp-scheme/blob/master/img/sicp.jpg)

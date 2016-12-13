@@ -1,6 +1,6 @@
 # Structure and Interpretation of Computer Programs - Lisp
 
-_SICP is a very well known text teaching the conceptual basis of programming_.
+_SICP is a very well known text teaching the conceptual basis of programming_...
 
 A computational process is indeed much like a sorcerer’s idea of a spirit. It cannot be seen or touched.
 It is not composed of matter at all. However, it is very real. It can perform intellectual work. It can

@@ -23,5 +23,3 @@
 
 (define (sqroot x) 
    (sqrt-iter 1.0 x))
- 
- (sqroot 4)

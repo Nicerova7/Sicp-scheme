@@ -23,5 +23,3 @@
     
 (define (root-cube x) 
   (sqrtree 1.0 x))
-
-(root-cube 27)

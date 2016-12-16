@@ -1,8 +1,8 @@
 (define (block-sqrt x)
   (define (good_enough? guess)
-    (< (abs (- (square guess x)) 0.001)))
+    (< (abs (- (square guess) x)) 0.001)))
   (define (improve guess)
-	(average guess(/ x guess)))
+	(average guess (/ x guess)))
  (define (sqrt-iter guess)
      (if (good-enough? guess)
  	  guess

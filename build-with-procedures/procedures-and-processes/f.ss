@@ -3,7 +3,7 @@
 ;;;Recursive process
 
 (define (f n)
-  
+
   (cond ((< n 3) n)
         
 	(else (+ (f (- n 1))
@@ -15,8 +15,8 @@
 ;;;Iterative process
 
 (define (ftwo n)
-  
-   (f-iter 2 1 0 n))
+
+	(f-iter 2 1 0 n))
 
 
 
@@ -25,5 +25,5 @@
    (if (= count 0)
         c
 
-       (f-iter (+ a (* 2 b) (* 3 c)) a b (- count 1))))
+      (f-iter (+ a (* 2 b) (* 3 c)) a b (- count 1))))
 

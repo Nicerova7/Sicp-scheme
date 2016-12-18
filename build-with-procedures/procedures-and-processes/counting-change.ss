@@ -2,7 +2,7 @@
 ;;; given amount of money.
 ;;; We use recursive procedure
 
-(define (count-amount mount)
+(define (count-change mount)
 	(cc amount 5))	;5 kinds of coins (1,2,5,10,20)
 
 (define (cc amount kinds-of-coins)

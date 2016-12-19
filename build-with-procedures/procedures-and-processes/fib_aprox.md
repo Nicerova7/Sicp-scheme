@@ -1,6 +1,6 @@
 ## Exercise 1.13
 
-__Prove that Fib(n) is to closest integer to (\phi)^n / \sqrt{5} where \phi = (1 + \sqrt{5})/2__.
+__Prove that Fib(n) is to closest integer to \phi^n / \sqrt{5} where \phi = (1 + \sqrt{5})/2__.
 
 
 _Proof_: 
@@ -10,7 +10,7 @@ We will use a Ross Honsberger lemma from the book [Mathematical Gems](https://ww
 __Lema__
 
 ```
-For any solution x of x^2 - x - 1 = 0, x^n = xF_n + F_(n-1), n >= 1
+For any solution x of x^2 - x - 1 = 0, x^n = xF_n + F_{n-1}, n >= 1
 ```
 
 For induction and remebering that F_1 = 1 , F_0 = 0
@@ -30,15 +30,15 @@ _k=2_
 _k=n_
 ```	
 It is assumed that
-	x^n = xF_n + F_(n-1)  ....(1)
+	x^n = xF_n + F_{n-1}  ....(1)
 
 Then we  have to reach k = n+1
 From (1) multiplied by x
 	
-	x^(n+1) = x^2 F_n + xF_(n-1)
-	x^(n+1) = (x+1) F_n + xF_(n-1)  For the initial proposition
-	x^(n+1) = x( F_n + F_(n-1) ) + F_n
-	x^(n+1) = x( F_(n+1) ) + F_n   For the fibonnaci sequence
+	x^{n+1} = x^2 F_n + xF_{n-1}
+	x^{n+1} = (x+1) F_n + xF_{n-1}  For the initial proposition
+	x^{n+1} = x( F_n + F_{n-1} ) + F_n
+	x^{n+1} = x( F_{n+1} ) + F_n   For the fibonnaci sequence
 	
 	then , the inducction is concluyed
 ```
@@ -48,16 +48,16 @@ From (1) multiplied by x
 By the lemma above and knowing that the roots of the equation are \phi and \varphi 
 
 ```
-(\phi)^n = \phi F_n + F_(n-1) ... (2)
-(\varphi)^n = \varphi F_n + F_(n-1) ... (3)
+\phi^n = \phi F_n + F_{n-1} ... (2)
+\varphi^n = \varphi F_n + F_{n-1} ... (3)
 
 (2) less (3) and solving
 
-F(n) = \frac{\phi)^n - (\varphi)^n}{\phi - \varphi}
+F(n) = \frac{\phi^n - \varphi^n}{\phi - \varphi}
 ```
 
 And as when "n" increases, \varphi decreases
-Fib(n) is to closest integer to (\phi)^n / \sqrt{5}
+Fib(n) is to closest integer to \phi^n / \sqrt{5}
 
 	
 	

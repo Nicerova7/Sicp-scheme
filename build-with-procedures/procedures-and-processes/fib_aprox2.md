@@ -15,17 +15,18 @@ __Lema__
 ![3](https://github.com/Nicerova7/Sicp-scheme/blob/master/img/3.jpg)
 
 _k=1_
-```
+
 ![4](https://github.com/Nicerova7/Sicp-scheme/blob/master/img/4.jpg)
-```
+
 
 _k=2_
-```
+
 ![5](https://github.com/Nicerova7/Sicp-scheme/blob/master/img/5.jpg)
-```
+
 _k=n_
 ```	
 It is assumed that
+```
 ![6](https://github.com/Nicerova7/Sicp-scheme/blob/master/img/6.jpg)
 
 
@@ -42,13 +43,13 @@ From (1) multiplied by x
 
 By the lemma above and knowing that the roots of the equation are \phi and \varphi 
 
-```
+
 ![8](https://github.com/Nicerova7/Sicp-scheme/blob/master/img/8.jpg)
 
 (2) less (3) and solving
 
 ![9](https://github.com/Nicerova7/Sicp-scheme/blob/master/img/9.jpg)
-```
+
 
 And as when "n" increases, \varphi decreases
 ![10](https://github.com/Nicerova7/Sicp-scheme/blob/master/img/10.jpg)

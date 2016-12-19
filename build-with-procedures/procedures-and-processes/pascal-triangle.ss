@@ -1,10 +1,10 @@
 ;;;(x+y)^n
 ;;;row x and col y in triangle
 
-(define (pas-iter x y)
+(define (pas-rec x y)
   (cond ((and (= y 0) (> x (- 1))) 1)
 	((and (= x 0) (> y 0)) 0)
-	(else (+ (pas-iter (- x 1) (- y 1)) (pas-iter (- x 1) y)))))
+	(else (+ (pas-rec (- x 1) (- y 1)) (pas-rec (- x 1) y)))))
 
 ;;;For the ubication in the Pascal's triangle
 (define (pascal a b)

@@ -8,7 +8,7 @@
 
 ;;;For the ubication in the Pascal's triangle
 (define (pascal a b)
- (pas-iter (- a 1) (- b 1)))
+ (pas-rec (- a 1) (- b 1)))
 
 ;;;Test
 ;(pascal 4 2) -> 3

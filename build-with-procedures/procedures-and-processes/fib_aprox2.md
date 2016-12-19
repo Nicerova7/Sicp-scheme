@@ -51,7 +51,6 @@ From (1) multiplied by x
 ![9](https://github.com/Nicerova7/Sicp-scheme/blob/master/img/9.jpg)
 
 
-And as when "n" increases, \varphi decreases
 ![10](https://github.com/Nicerova7/Sicp-scheme/blob/master/img/10.jpg)
 
 	

@@ -65,6 +65,7 @@ Fib(n) is to closest integer to (\phi)^n / \sqrt{5}
 ### References
 
 <https://www.uam.es/personal_pdi/ciencias/gallardo/cap10-fgs1.pdf>
+
 <http://www.cut-the-knot.org/proofs/BinetFormula.shtml>
 	
 

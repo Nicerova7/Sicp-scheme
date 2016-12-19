@@ -41,7 +41,7 @@ From (1) multiplied by x
 
 ### Proof of Binet's formula
 
-By the lemma above and knowing that the roots of the equation are \phi and \varphi 
+![71](https://github.com/Nicerova7/Sicp-scheme/blob/master/img/7_1.jpg)
 
 
 ![8](https://github.com/Nicerova7/Sicp-scheme/blob/master/img/8.jpg)

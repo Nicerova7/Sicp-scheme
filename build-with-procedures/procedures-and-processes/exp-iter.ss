@@ -2,7 +2,7 @@
   (* x x))
 
 (define (expt b n)
-  (exp-iter b n 1)
+  (exp-iter b n 1))
 
 (define (mod x y)
 	(- x (* (floor (/ x y)) y)))

@@ -12,7 +12,7 @@
 
 (define (multiplication-recursive a b)	; a x b
 	(cond ((= b 0) b)
-	      ((even? b) (double (multplication-recursive a (halve b))))
+	      ((even? b) (double (multiplication-recursive a (halve b))))
 	      (else (+ a (multiplication-recursive a (- b 1))))))
 
 ;;; Test

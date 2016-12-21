@@ -13,6 +13,6 @@
 (define (exp-iter b counter a)
 	(cond ((= counter 0) a)
 	      ((even? counter) (exp-iter (square b) (/ counter 2) a))
-	      (else (* b (exp-iter b (- counter 1) a)))))
+	      (else (exp-iter b (- counter 1) (* a b)))))
 
 

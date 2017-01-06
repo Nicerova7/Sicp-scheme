@@ -1,7 +1,7 @@
 ;;;(x+y)^n
 ;;;row x and col y in triangle
 
-(define (pas-rec x y)
+(define (pas-rec x y)	;recursive process 
   (cond ((and (= y 0) (> x (- 1))) 1)
 	((and (= x 0) (> y 0)) 0)
 	(else (+ (pas-rec (- x 1) (- y 1)) (pas-rec (- x 1) y)))))

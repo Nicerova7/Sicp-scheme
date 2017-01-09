@@ -6,7 +6,7 @@
 (define (prod term a next b)
 	(if (> a b)
 		1
-		(* (term a) (product term (next a) next b))))
+		(* (term a) (prod term (next a) next b))))
 
 (define (add x) (+ x 1))
 (define (f x) (+ (/ 1 (- (* 4 x x) 1)) 1))

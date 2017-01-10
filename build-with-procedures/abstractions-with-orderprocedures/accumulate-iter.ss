@@ -14,5 +14,5 @@
 (define (sum-cube a b)
 	(accumulate suma cube a inc b))
 
-(sum-cube 1 10)
+; (sum-cube 1 10) -> 3025
 

@@ -1,13 +1,13 @@
 ## Exercise 1.34 
 
-Now we have the following procedure
+Now we have the following procedure.
 
 ```
 (define (f g)
 (g 2))
 ```
 
-Exercise gives us two ideas
+Exercise gives us two ideas:
 
 ```
 (f square )
@@ -15,7 +15,7 @@ Exercise gives us two ideas
 ```
 
 We do not see any problem with the result, because we replace the "g" function
-with "square" then we apply the funcion "square" to the value 2, then 2*2 = 4
+with "square" then we apply the funcion "square" to the value 2, then 2*2 = 4.
 
 
 ```
@@ -25,7 +25,7 @@ with "square" then we apply the funcion "square" to the value 2, then 2*2 = 4
 
 We observe that we have the "lambda" function with which we define a procedure
 in which a value is given and multiplication of the same value is generated
-with the following (+ z 1)
+with the following (+ z 1).
 
 
 __What happens if we (perversely) ask the interpreter to evaluate the combination (f f)?__

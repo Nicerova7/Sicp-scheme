@@ -5,7 +5,6 @@ Now we have the following procedure
 ```
 (define (f g)
 (g 2))
-
 ```
 
 Exercise gives us two ideas

@@ -21,7 +21,8 @@ with "square" then we apply the funcion "square" to the value 2, then 2*2 = 4
 ```
 (f (lambda (z) (* z (+ z 1))))
 6
-``
+```
+
 We observe that we have the "lambda" function with which we define a procedure
 in which a value is given and multiplication of the same value is generated
 with the following (+ z 1)

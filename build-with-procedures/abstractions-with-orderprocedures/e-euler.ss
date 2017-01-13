@@ -8,7 +8,7 @@
 
 
 (define (remainder a b)
-	(- a (* (floor (/a b)) b)))
+	(- a (* (floor (/ a b)) b)))
 
 ;;; e (base of the natural logarithms)
 (+ 2 (cont-frac (lambda (i) 1.0)

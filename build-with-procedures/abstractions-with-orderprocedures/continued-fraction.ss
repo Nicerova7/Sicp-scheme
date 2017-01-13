@@ -2,7 +2,7 @@
 	(define (fraccion-i i)
 		(if (< i k)
 			(/ (n i) (+ (d i) (fraccion-i (+ i 1)))))
-			(/ (n i) (d i))))
+			(/ (n i) (d i)))
 	(fraccion-i 1.0))
 
 (cont-frac (lambda (i) 1.0)

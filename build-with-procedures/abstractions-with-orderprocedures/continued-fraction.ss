@@ -7,7 +7,8 @@
 
 (cont-frac (lambda (i) 1.0)
 	   (lambda (i) 1.0)
-	    10)
+	    11)
 
-;0.617977528089887 -> 1/aureo
+;;; 4 decimal places
+;0.6180555555555556 -> 1/aureo
 	

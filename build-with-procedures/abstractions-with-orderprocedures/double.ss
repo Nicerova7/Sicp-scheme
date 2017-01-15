@@ -7,5 +7,5 @@
 
 ; ((double inc) 4) -> 6
 
-; (((double (double double)) inc 5) -> 21
+; (((double (double double)) inc) 5) -> 21
 

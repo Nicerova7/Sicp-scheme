@@ -17,3 +17,5 @@
 
 (define (n-fold f n)
 	(repeated (smooth f) n))
+
+;((n-fold inc 3) 3) ;-> 6

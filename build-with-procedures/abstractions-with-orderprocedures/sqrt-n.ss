@@ -43,7 +43,8 @@
 		(compose f (repeated f (- n 1)))))
 
 (define (sqrt-n x n)
-	(fixed-point (repeated (average-damp (lambda (y) (/ x (expt y (- n 1))))) (- n 2))
-		      1.0))
+	(fixed-point ((repeated average-damp (- n 2)) (lambda (y) (/ x (expt y (- n 1)))))
+		     1.0))
+
 
 ;(sqrt-n 16 4) ; -> 1.98 approx 2

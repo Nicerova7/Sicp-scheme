@@ -7,12 +7,12 @@
 (define (average a b) (/ (+ a b) 2))
 
 (define (iterative-improve good-enough? improve-guess)
-	(lambda (guess (x guess))
-		(if (good-enough? guess x)
+	(lambda (guess x)
+		(if (good-enough? guess (x guess))
 		     guess
 		     ((iterative-improve good-enough? improve-guess) (improve-guess guess x) x))))
 
-;;;1.1.7 sqrt
+;;;1.3.3 fixe-point
 
 (define (close-enough? v1 v2)
 	(< (abs (- v1 v2)) 0.0001))

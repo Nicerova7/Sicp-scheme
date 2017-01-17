@@ -21,6 +21,6 @@
 	(x guess))
 
 (define (fixed-point x first-guess) ; x is a function
-	((iterative-improve close-enough? improve) first guess x))
+	((iterative-improve close-enough? improve) first-guess x))
 
 ;(fixed-point cos 1.0) ; ->  0.7390893414033928

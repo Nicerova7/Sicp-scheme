@@ -3,7 +3,7 @@
       a
       (gcd b (remainder a b))))
 
-(define (remainder a b)
+(define (remainder x y)
   (- x (* (floor (/ x y)) y)))
 
 (define (make-rat n d)

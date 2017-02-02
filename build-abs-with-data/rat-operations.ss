@@ -12,6 +12,7 @@
 	       (* (numer y) (denom x)))
 	    (* (denom x) (denom y))))
 
+
 ;Multiplication
 ;
 (define (mul-rat x y)

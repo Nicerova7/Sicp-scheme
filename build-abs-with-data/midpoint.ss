@@ -34,7 +34,7 @@
   (display ")"))
 
 ;Example
-;print-point (midpoint-segment (make-segment (make-point 0 1) (make-point 0 3)))) -> (0,2)
+;(print-point (midpoint-segment (make-segment (make-point 0 1) (make-point 0 3)))) -> (0,2)
 
   
  

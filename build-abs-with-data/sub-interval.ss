@@ -1,3 +1,4 @@
+;;; It's a very especial case and i'm not sure if it's what the book asks for
 (define (sub-interval a b) ; a - b
   (cond ((> (lower-bound a) (lower-bound b))
 	 (make-interval (lower-bound a) (upper-bound b)))

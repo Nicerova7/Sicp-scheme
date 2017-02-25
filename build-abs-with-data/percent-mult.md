@@ -21,8 +21,8 @@
  Since p1 and p2 are very small , a ~ b  and c ~ d.
 
          = (100 * (db-ac))/((bd+ac+aC+bD) / 2)   (The capital letters are the new letters).
-	 = (100 * (db-ac))/(bd+ac)
+	 = (100 * (db-ac))/(bd+ac).
 
- ... it's p3.
+         =  ... it's p3.
 
 ```

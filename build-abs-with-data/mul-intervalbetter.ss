@@ -36,17 +36,3 @@
 		  ((and (<= yl 0)
 			(>= yu 0))
 		   (make-interval (* xl yu) (* xl yl)))))))))
-			
-			
-		  
-		 
-			
-		  
-	   
-	   
-		 
-	   
-   
-	    
-	    
-	    

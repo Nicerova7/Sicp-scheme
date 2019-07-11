@@ -19,6 +19,6 @@ Here is the [scheme style guide](http://community.schemewiki.org/?scheme-style)
  y))
 ```
 
-Find the book [here](https://www.amazon.com/Structure-Interpretation-Computer-Programs-Engineering/dp/0262510871)
+Find the 2nd edition of this book [here](https://web.mit.edu/alexmv/6.037/sicp.pdf)
 
 ![Sicp](https://github.com/Nicerova7/Sicp-scheme/blob/master/img/sicp.jpg)
